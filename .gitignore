@@ -1,0 +1,91 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# HabitGuard secrets and local environment files
+.env
+.env.*
+!*.env.example
+
+# Local Python artifacts
+__pycache__/
+
+# Local backup copies - keep locally, do not upload
+*.backup
+*.backup_*
+*.bak
+*.working_backup
+*.before_*
+*wrong_backup*
+
+# Local audit and archive files
+*.zip
+HabitGuard_Audit_Report.txt
+
+# Local test scripts - review separately before sharing
+ml/test_sms.py
+
+# Local code-editing helper scripts
+apply_guardian_alert_policy*.ps1
+fix_*.ps1
+
+# Additional local backups and pre-cleanup snapshots
+*.bak
+*.pre_*
+*_before_cleanup.txt
+ml/audit_backup_*/
+
+# Local root-level helper artifacts - do not deploy unless verified necessary
+/adb
+/flutter
+
+# Additional backup filename patterns
+*.bak_*
+
+# Alternate Firebase config filename - retain locally for review
+/android/app/google.services.json
+
+# Local Firebase Android configuration
+/android/app/google-services.json
